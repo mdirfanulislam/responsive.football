@@ -1,0 +1,95 @@
+/* common style css */
+body{
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-1{
+    width: 800px;
+}
+/* headline style */
+.headline{
+    display: flex;
+    padding: 70px;    
+    background-color: rgb(39, 46, 156);
+    margin-bottom: 50px;
+}
+.head-title{
+    padding-left: 45px;
+}
+.head-title h1{
+    color: white;
+    font-size: 45px;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 11px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: whitesmoke;
+    background-color: rgb(219, 21, 130);
+}
+.link-button i{
+    padding-left: 10px;
+}
+.link-button:hover{
+    font-size: 13px;
+    padding: 15px;
+    padding-left: 18px;
+    padding-right: 30px;
+}
+.thambnail img{
+    width: 400px;
+    height: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* top players style */
+.top-players{
+    margin-bottom: 100px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px; 
+    padding-left: 10px;
+}
+.player{
+    margin-left: 10%;
+    margin-right: 5%;
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 10px rgb(226, 226, 226);
+}
+.player img{
+    width: 205px;
+    height: 175px;
+}
+.player h2{
+    font-size: 1.4em;
+}
+.player p{
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+}
+/* top football style */
+.top-football{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.top-football img{
+    width: 30%;
+    padding-bottom: 20px;
+}
+.duration i{
+    color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+}.top-football p{
+    font-size: 14px;
+    color: black;
+}
