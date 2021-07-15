@@ -93,3 +93,23 @@ main{
     font-size: 14px;
     color: black;
 }
+
+/* Media Queries */
+/* Mobile Devices */
+@media only screen and (min-width: 411px;) and (max-width: 731px;) {
+    .container{
+        width: 100%;
+    }
+    .container-1{
+        width: 100%;
+    }
+    .headline, .players{
+        background-color: red;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width: 688px;) and (max-width: 1024px;) {
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
